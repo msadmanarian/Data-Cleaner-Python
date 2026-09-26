@@ -1,3 +1,7 @@
+import logging
+
+logging.basicConfig(level=logging.INFO)
+
 def sanitize_list(items):
     """Removes leading/trailing whitespace and filters out duplicates."""
     seen = set()
